@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
 	var altura = $('.Barra').offset().top;
 	$(window).on('scroll', function(){
 		if ($(window).scrollTop() > altura){
@@ -7,5 +7,5 @@ $(document).ready(function(){
 			$('.Barra').removeClass('Barra-fixed');
 		}
 	});
-});
+});*/
 

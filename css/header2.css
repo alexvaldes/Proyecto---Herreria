@@ -1,0 +1,87 @@
+
+.Contenedor-header {
+		/*width: 1170px;*/
+		/*background-color: red;*/
+		height: 170px;
+		margin: 0 auto;
+	}
+	.Contenedor-header a{
+		margin-top: 15px;
+		/*margin-left: 10px;*/
+		display: inline-block;
+		
+	}
+		.Contenedor-header a img{
+			height: 140px;
+			width: 480px;
+		}
+
+	.Contenedor-header aside{
+		float: right;
+		margin-top: 10%;
+	}
+
+.Contenedor-barra{
+	/*Bordes redondeados*/
+	-webkit-border-radius:10px;/*Para chrome y Safari*/
+	-moz-border-radius:10px;/*Para Firefox*/
+	-o-border-radius:10px;/*Para Opera*/
+	border-radius:10px;/*El estandar por defecto*/
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#789B71), to(#67A865));/*Para chrome y Safari*/
+	/*Degradados*/
+	background-image: -moz-linear-gradient(top center, #A5EDC7, #CCC);/*Para Firefox*/
+	background-image: -o-linear-gradient(top, #A5EDC7, #CCC);/*Para Opera*/
+	background-image: linear-gradient(top, #A5EDC7, #CCC);/*El estandar por defecto*/
+	overflow:hidden;
+	width:950px;
+	box-shadow: 0px 4px 3px rgba(0,0,0,.5);
+}
+
+
+
+	.Contenedor-barra > ul{
+
+			text-align: center;
+			/*padding-top: 7px;*/
+			font-size: 20px;
+
+		}
+			.Contenedor-barra > ul li{
+				display: inline-block;
+			}
+
+				.Contenedor-barra > ul li a{
+					display: block;
+					padding: 0.7em 1em;
+					color: white;
+					text-decoration: none;
+					
+				}
+				.Contenedor-barra-li a:hover{
+					background-color: rgb(14,101,32);
+					/*Transiciones*/
+    -webkit-transition: 0.4s linear all;
+    -moz-transition: 0.4s linear all;
+    -o-transition: 0.4s linear all;
+    transition: 0.4s linear all;
+				}
+
+	.contacto-facebook, .contacto-tw, .contacto-correo{
+		
+		display: inline;
+		font-size: 1.7em;
+		padding: 0.1em 0.3em;
+	}
+		.iconos2{
+			text-align: center;
+		}
+		.contacto-facebook2, .contacto-tw2, .contacto-correo2{
+				
+				display: inline;
+				font-size: 1.2em;
+				padding: 0.1em 0.5em;
+			}
+			.contacto-correo2 span{
+
+				font-size: 0.7em;
+			}
