@@ -1,0 +1,30 @@
+
+
+.contenido-servicios{
+	padding: 0 5em;
+}
+	.contenido-servicios h2{
+		text-align: center;
+		color: #397ABD;
+	}
+
+.descripcion{
+	margin-top: 3em;
+}
+.descripcion p{
+	font-size: 16px;
+	text-align: justify;
+}
+.descripcion h3{
+	color: #4B79A9;
+}
+
+.imagenes-servicios{
+	margin-top: 3em;
+	display: flex;
+	justify-content: space-around;
+	padding: 0 4em;
+}
+.imagenes-servicios img{
+	box-shadow: 0px 0px 20px rgba(0,0,0,.5);
+}

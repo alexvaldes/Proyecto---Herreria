@@ -1,0 +1,31 @@
+.ContenidoTotal{
+	display: flex;
+}
+.ContenidoTotal-menu{
+	width: 30%;
+	
+	box-shadow: 2px 0px 20px rgba(0,0,0,.5);
+	text-align: left;
+	display: flex;
+	align-items: center;
+}
+.ContenidoTotal-menu ul li a:hover{
+	background: inherit;
+}
+.ContenidoTotal-menu ul li a:focus{
+	background: inherit;
+	color: orange;
+}
+#vision div{
+	text-align: center;
+}
+.ContenidoTotal-contenido div{
+	text-align: justify;
+	font-size: 16px;
+}
+.ContenidoTotal-contenido{
+	width: 70%;
+	margin: 0 2em;
+}
+
+

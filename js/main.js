@@ -136,7 +136,7 @@
                         break;
             }
             hoy=" "+day+" "+nday+" de "+month+" del "+year;
-            hora=h+":"+m+":"+s+" "+meridian/*+"<br/>"*/;
+            hora=h+":"+m+" "+meridian/*+"<br/>"*/;
             // alert(hoy);
             document.getElementById('fecha').innerHTML=hoy;
             document.getElementById('reloj').innerHTML=hora;

@@ -4,10 +4,10 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="css/fonts.css">
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
-	<link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./css/main.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
 
 </head>
 <body>
@@ -20,7 +20,11 @@
 			
 
 			<aside>
-				<div>
+					<div>
+						<span id="fecha"></span><br>
+						<span id="reloj"></span><br>
+					</div>
+					
 					<ul class="iconos">
 					<li class="contacto-facebook">
 						<a href="">
@@ -44,13 +48,12 @@
 						</a>
 					</li>
 					</ul>
-				</div>
 			</aside>
 		</header>
 		<nav class="Contenedor-barra">
 				<ul>
 					<li class="Contenedor-barra-li"><a href="./index.html">Inicio</a></li>
-					<li class="Contenedor-barra-li"><a href="">Quienes somos</a></li>
+					<li class="Contenedor-barra-li"><a href="./quienesSomos.html">Quienes somos</a></li>
 					<li class="listmenu"><a href="#">Servicios</a>
 						<ul>
 							<li class="listmenu-herreria"><a href="#">Herrería</a>
@@ -122,17 +125,33 @@
 					<li class="Contenedor-barra-li"><a href="./ubicacion.html">Ubicación</a></li>
 				</ul>
 		</nav>
-<!-- /////////////////////////////////////Seccion contenido////////////////////////////////// -->
+			<section class="Galeria">
+				<div class="ContenidoTotal-menu servicios-lista">
+					<ul class="nav servicios-lista-ul">
+						<li class="active servicios-lista-ul-li"><a data-toggle="tab" href="#vision"><h1>Visión</h1></a></li>
+						<li class="servicios-lista-ul-li"><a data-toggle="tab" href="#mision"><h1>Misión</h1></a></li>
+						<li class="servicios-lista-ul-li"><a data-toggle="tab" href="#valores"><h1>Valores</h1></a></li>
+						<li><a data-toggle="tab" href="#objetivos"><h1>Objetivos de la empresa</h1></a></li>
+					</ul>
+				</div>
+				
+				<div class="ContenidoTotal-contenido tab-content">
+					<div id="vision" class="tab-pane fade in active">
+						<p>Contribuir con el desarrollo económico de México, convirtiéndonos en la mayor empresa innovadora y vanguardista en el diseño y calidad de nuestros servicios. Consolidarnos como líderes en infraestructura urbana de edificación, además de expandir nuestros servicios a nivel nacional. Ser una empresa reconocida en el ámbito de la construcción, mantenimiento de hogares y empresas. Disminuir el impacto ambiental, desarrollando alternativas que generen menos contaminación.</p>
+						<br>
+						<div><img src="img/vision.png" alt="vision_img" width="450"></div>
+					  </div>
+					  <div id="mision" class="tab-pane fade">
+					
+					    <p>Hola mundo 2</p>
+					  </div>
+				</div>
 
-		<section>
-			<div >
-				<h2>Vision</h2>
-			</div>
-		</section>
-	</section>
+			</section>
 
+			
 
-	<footer class="footer">
+<footer class="footer">
 				<div>
 					<ul class="iconos2">
 					<li class="contacto-facebook2">
@@ -166,11 +185,12 @@
 		</div>
 
 </footer>
-		<script src="js/jquery-1.9.1.min.js"></script>
-		<script src="js/bootstrap.js"></script>
-		<script src="js/main.js"></script>
-		<!-- Add Google Maps -->
-		<script src="http://maps.googleapis.com/maps/api/js"></script>
-		<script src="./js/map.js"></script>
+
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/main.js"></script>
+	
+	
+	
 </body>
 </html>

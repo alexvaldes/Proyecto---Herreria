@@ -2,6 +2,8 @@
 @import './galeria.css';
 @import './contenedorMenu.css';
 @import './menu_nav.css';
+@import './quienesSomos.css';
+@import './servicios.css';
 
 *{
 	margin: 0;
